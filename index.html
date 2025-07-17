@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyS Proyectos | Construcción, Electricidad y Comunicaciones</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo">SyS Proyectos</a>
+            <nav>
+                <ul>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#about">Quiénes Somos</a></li>
+                    <li><a href="#contact" class="cta-nav">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Construcción e Infraestructura Tecnológica para el Futuro</h1>
+                <p>Soluciones integrales desde la obra gruesa hasta la conectividad total. Calidad, experiencia y confianza en Talca y la Región del Maule.</p>
+                <a href="#contact" class="cta-button">Solicitar Cotización</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Nuestros Servicios</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Construcción</h3>
+                        <p>Obras nuevas, remodelaciones y ampliaciones lideradas por profesionales de la Ingeniería.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Electricidad</h3>
+                        <p>Instalaciones seguras y certificadas (TE1), aumentos de capacidad y proyectos de eficiencia energética.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Comunicaciones y TIC</h3>
+                        <p>Cableado estructurado, fibra óptica, redes WiFi de alta velocidad, CCTV y domótica.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Proyectos Destacados</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/400x300.png?text=Remodelación+Oficina" alt="Proyecto 1">
+                        <h4>Remodelación de Oficina Comercial</h4>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/400x300.png?text=Instalación+Eléctrica" alt="Proyecto 2">
+                        <h4>Instalación Eléctrica Residencial</h4>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/400x300.png?text=Red+de+Datos" alt="Proyecto 3">
+                        <h4>Cableado Estructurado para Empresa</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>La Sinergia Perfecta para su Proyecto</h2>
+                <p>Somos una empresa familiar que une la experiencia y rigurosidad de la Ingeniería en Construcción con la innovación y el conocimiento técnico en electricidad y telecomunicaciones. Esta combinación única nos permite ofrecer un control total sobre la calidad y los plazos de su proyecto, garantizando resultados excepcionales.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contáctenos</h2>
+                <p>¿Listo para comenzar su próximo proyecto? Complete el formulario y nos pondremos en contacto a la brevedad.</p>
+                <form id="contact-form">
+                    <input type="text" id="name" name="name" placeholder="Su Nombre Completo" required>
+                    <input type="email" id="email" name="email" placeholder="Su Correo Electrónico" required>
+                    <select name="service_type" id="service_type">
+                        <option value="">Seleccione el tipo de servicio...</option>
+                        <option value="construccion">Construcción</option>
+                        <option value="electricidad">Electricidad</option>
+                        <option value="comunicaciones">Comunicaciones y TIC</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <textarea name="message" id="message" rows="5" placeholder="Describa su proyecto aquí..." required></textarea>
+                    <button type="submit" class="cta-button">Enviar Solicitud</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MVJ Proyectos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
